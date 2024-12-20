@@ -1,0 +1,86 @@
+@media screen and (max-width:600px){
+
+    .navbar ul li a {
+        font-size: 12px;
+    }
+    .leftside {
+        width: 20%;
+        border-right: 2px solid black;
+    }
+
+    th {
+        font-size: 12px;
+    }
+    .textleftside h4 {
+        font-size: 14px;
+    }
+    .textleftside a {
+        font-size: 12px;
+    }
+    .textleftside {
+        margin: 10px 0 0 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Добавляем стиль для изображений */
+    .textleftside img {
+        display: block; /* Убедитесь, что изображения располагаются друг под другом */
+        margin: 10px 0; /* Добавляем отступы между изображениями */
+        max-width: 100%; /* Убедитесь, что изображения не выходят за пределы контейнера */
+        height: auto; /* Сохраняем пропорции изображений */
+    }
+
+    iframe {
+        width: 80%;
+        margin: 20px;
+        height: 300px;
+    }
+    .pdf object {
+        width: 80%;
+        margin: 20px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:490px){
+
+    .navbar ul {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        list-style-type: none;
+        gap: 20px 20px;
+        margin: 20px 20px 20px 30px;
+    }
+    .textleftside h4 {
+        font-size: 12px;
+    }
+    .textleftside a {
+        font-size: 10px;
+    }
+    .textleftside {
+        margin: 5px 0 0 2px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Повторяем стиль для изображений */
+    .textleftside img {
+        display: block;
+        margin: 10px 0; 
+        max-width: 100%; 
+        height: auto; 
+    }
+
+    iframe {
+        width: 80%;
+        margin: 20px;
+        height: 300px;
+    }
+    .pdf object {
+        width: 80%;
+        margin: 20px;
+        height: 300px;
+    }
+}

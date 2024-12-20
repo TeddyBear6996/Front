@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 15px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo p {
+    margin-top: 5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.heading {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h3,
+.heading h4 {
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px 50px;
+    margin: 20px 20px 20px 30px;
+}
+
+.navbar ul li a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    transition: all 0.3s;
+    align-items: center;    
+    justify-content: center;
+}
+
+.navbar ul li a:hover {
+    opacity: .8;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    border-bottom: 2px solid black;
+}
+
+.leftside {
+    width: 30%;
+    border-right: 2px solid black;
+}
+
+.textleftside {
+    margin: 20px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textleftside h4 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.textleftside a {
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.midside {
+    width: 75%;
+}
+
+.firstblockmidside h2 {
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    margin: 30px;
+}
+
+.modal-window {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+.image-card img {
+    width: 250px; /* Убедитесь, что это значение подходит для вашего дизайна */
+    border-radius: 10px;
+}
+
+.image-card-one {
+    justify-self: center;
+    position: relative;
+}
+
+.image-card-three {
+    justify-self:center;
+}
+
+.heading-image-card-one h3,
+.heading-image-card-two h3,
+.heading-image-card-three h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button-one,
+.button {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;   
+}
+
+.button a,
+.button-one a {
+    background-color: rgb(0, 0, 0);
+    border-radius: 6px;
+    color: white;
+    padding: 7px;
+    font-family: Inter, sans-serif;   
+    font-size: 14px;
+    transition: all .8s;
+    text-decoration: none;
+}
+
+.button-one a:hover,
+.button a:hover {
+    opacity: .9;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.secondblockmidside h3 {
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    margin: 30px;
+}
+
+/* Адаптивные стили для мобильных устройств */
